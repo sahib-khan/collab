@@ -4,7 +4,7 @@
 % The human readable label for the tracker, used to identify the tracker in reports
 % If not set, it will be set to the same value as the identifier.
 % It does not have to be unique, but it is best that it is.
-tracker_label = ['ADT];
+tracker_label = ['ADT'];
 
 % For Python implementations we have created a handy function that generates the appropritate
 % command that will run the python executable and execute the given script that includes your
