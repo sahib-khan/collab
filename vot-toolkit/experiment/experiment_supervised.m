@@ -5,7 +5,7 @@ metadata.completed = true;
 cache = get_global_variable('experiment_cache', true);
 silent = get_global_variable('experiment_silent', false);
 
-defaults = struct('repetitions', 5, 'skip_tags', {{}}, 'skip_initialize', 0, 'failure_overlap', 0);
+defaults = struct('repetitions', 15, 'skip_tags', {{}}, 'skip_initialize', 0, 'failure_overlap', 0);
 context = struct_merge(parameters, defaults);
 metadata.deterministic = false;
 

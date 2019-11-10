@@ -5,7 +5,7 @@ function [files, metadata] = experiment_chunked(tracker, sequence, directory, pa
     cache = get_global_variable('experiment.cache', true);
     silent = get_global_variable('experiment.silent', 0);
 
-    defaults = struct('repetitions', 5, 'failure_overlap',  -1, 'chunk_length', 50);
+    defaults = struct('repetitions', 15, 'failure_overlap',  -1, 'chunk_length', 50);
     context = struct_merge(parameters, defaults);
     metadata.deterministic = false;
 
