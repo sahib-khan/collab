@@ -10,4 +10,4 @@ set_global_variable('version', 7);
 % set_global_variable('cache', 0);
 
 % Select experiment stack
-set_global_variable('stack', 'vot2018');
+set_global_variable('stack', 'vot2019');
