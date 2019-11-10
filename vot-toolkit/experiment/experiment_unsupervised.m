@@ -5,7 +5,7 @@ function [files, metadata] = experiment_unsupervised(tracker, sequence, director
 	cache = get_global_variable('experiment_cache', true);
 	silent = get_global_variable('experiment_silent', false);
 
-    defaults = struct('repetitions', 15);
+    defaults = struct('repetitions', 5);
     context = struct_merge(parameters, defaults);
     metadata.deterministic = false;
 
